@@ -18,7 +18,6 @@ promisifyable.forEach(fn => {
 })
 
 module.exports = pfs;
-console.log(module.exports);
 
 if (!module.parent) {
 	var args = process.argv.slice(2);
