@@ -8,7 +8,8 @@ var promisifyable = [
 	'readFile',
 	'mkdtemp',
 	'rename',
-	'rmdir'
+	'rmdir',
+	'unlink'
 ];
 
 var pfs = {};
