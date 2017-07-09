@@ -17,7 +17,7 @@ promisifyable.forEach(fn => {
 	pfs[fn] = util.promisify(fs[fn]);
 })
 
-module.exports = util._extend(pfs, fs);
+module.exports = pfs;
 console.log(module.exports);
 
 if (!module.parent) {
