@@ -10,8 +10,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lawrence Tranter",
-  "license": "ISC",
-  "dependencies": {
-    "version-bump": "git+ssh://git@gitlab.para-site.nz/lawrence/node-version-bump.git"
-  }
+  "license": "ISC"
 }
