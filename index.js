@@ -21,7 +21,5 @@ promisifyable.forEach(fn => {
 module.exports = pfs;
 
 if (!module.parent) {
-	var args = process.argv.slice(2);
-	console.log('args', args);
-	pfs[args[0]].apply(null, args.slice(1));
+	console.log('supported modules', pfs);
 }
