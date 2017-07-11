@@ -6,6 +6,7 @@ var promisifyable = [
 	'lstat',
 	'readdir',
 	'readFile',
+	'writeFile',
 	'mkdtemp',
 	'rename',
 	'rmdir',
