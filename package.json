@@ -3,9 +3,6 @@
   "version": "0.0.0",
   "description": "a wrapper around fs functionality to support promises",
   "main": "index.js",
-  "bin":{
-    "version-bump": "node-version-bump"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
