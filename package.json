@@ -1,6 +1,6 @@
 {
   "name": "promise-fs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "a wrapper around fs functionality to support promises",
   "main": "index.js",
   "scripts": {
