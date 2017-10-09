@@ -3,6 +3,7 @@ var util = require('util');
 
 var promisifyable = [
 	'mkdir',
+	'mkdtemp',
 	'lstat',
 	'readdir',
 	'readFile',
