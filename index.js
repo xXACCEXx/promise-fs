@@ -1,4 +1,4 @@
-var fs = require('fs');
+var fs = require('fs-extra');
 var util = require('util');
 
 var promisifyable = [
@@ -11,7 +11,8 @@ var promisifyable = [
 	'mkdtemp',
 	'rename',
 	'rmdir',
-	'unlink'
+	'unlink',
+	'remove'
 ];
 
 var pfs = {};
