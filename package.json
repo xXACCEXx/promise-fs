@@ -1,5 +1,5 @@
 {
-  "name": "promise-fs",
+  "name": "@acce/promise-fs",
   "version": "0.0.4",
   "description": "a wrapper around fs functionality to support promises",
   "main": "index.js",
